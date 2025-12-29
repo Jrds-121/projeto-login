@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+/* Typical Device breakpoints
+-------------------------------
+Celular: 320px - 576px
+Tablet: 576px - 992px
+Dasktop: 992px - 1200px
+TV: < 1200px
+*/
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    #login {
+        width: 600px;
+        height: 500px;
+
+        flex-direction: row; 
+    }
+
+    #imagem {
+        width: 30%;
+        height: 100%;
+    }
+
+    #formulario {
+        width: 70%;
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 40px;
+    }
+
+}
+
+@media screen and (min-width: 992px)  {
+    #login {
+        width: 950px;
+        height: 500px;
+        flex-direction: row; 
+    }
+
+    #imagem {
+        width: 50%;
+        height: 100%;
+    }
+
+    #formulario {
+        width: 50%;
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 40px;
+    }
+
+}
