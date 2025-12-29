@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(37, 34, 34);
+}
+
+#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.538);
+    
+}
+
+#imagem {
+    display: block;
+    height: 200px;
+    margin: auto;
+    background: url('../imagens/pexels-toushif-alam-167687199-16823326\ \(1\).jpg')  center/cover;
+    
+}
+
+#formulario{
+    display: block;
+    text-align: center;
+    padding: 50px;
+    height: 400px;
+    background-color: white;
+
+}
+
+form {
+    font-size: large;
+}
+
+
