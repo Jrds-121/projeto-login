@@ -12,7 +12,6 @@ TV: < 1200px
     #login {
         width: 600px;
         height: 500px;
-
         flex-direction: row; 
     }
 
@@ -31,13 +30,21 @@ TV: < 1200px
         padding: 40px;
     }
 
+    #formulario h1 {
+    margin-bottom: 20px;
+}
+
+    input[type=submit] {
+        margin-left: 35px;
+    }
+
 }
 
 @media screen and (min-width: 992px)  {
     #login {
         width: 950px;
         height: 500px;
-        flex-direction: row; 
+        flex-direction: row-reverse; 
     }
 
     #imagem {
@@ -53,6 +60,19 @@ TV: < 1200px
         flex-direction: column;
         justify-content: center;
         padding: 40px;
+    }
+
+    #formulario h1 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+
+    #formulario p {
+        font-size: 1.2rem;
+    }
+
+    input[type=submit] {
+        margin-left: 40px;
     }
 
 }
